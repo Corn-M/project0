@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @media (min-width: 992px) {
+                h1::before {
+                    content:"Fun Facts About Random Stuff!"
+                }
+            }
+
+            @media (max-width: 991px) {
+                h1::before {
+                    content:"Fun Facts!"
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1></h1>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <a href="index.html"><button type="button" class="btn btn-outline-light btn-block">Main</button></a>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="about.html"><button type="button" class="btn btn-outline-light btn-block">About me</button></a>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="facts.html"><button type="button" class="btn btn-outline-light btn-block">Facts</button></a>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="cool.html"><button type="button" class="btn btn-outline-light btn-block">Cool stuff</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="tablebod">
+            <h2>Planets</h2>
+            <table>
+                <tr>
+                    <th>Planet</th>
+                    <th>My Ranking</th>
+                    <th>Distance from Sun</th>
+                    <th>Period</th>
+                    <th>Diameter</th>
+                    <th>Known Moons</th>
+                </tr>
+                <tr>
+                    <td>Neptune</td>
+                    <td>1</td>
+                    <td>30.10 au</td>
+                    <td>164.8 years</td>
+                    <td>49,244 km</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>Earth</td>
+                    <td>2</td>
+                    <td>1.00 au</td>
+                    <td>365.25 days</td>
+                    <td>12,742 km</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Venus</td>
+                    <td>3</td>
+                    <td>0.73 au</td>
+                    <td>224.70 days</td>
+                    <td>12,104 km</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Saturn</td>
+                    <td>4</td>
+                    <td>9.60 au</td>
+                    <td>29.50 years</td>
+                    <td>116,460 km</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>Uranus</td>
+                    <td>5</td>
+                    <td>19.22 au</td>
+                    <td>84.02 years</td>
+                    <td>50,724 km</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Jupiter</td>
+                    <td>6</td>
+                    <td>5.20 au</td>
+                    <td>11.86 years</td>
+                    <td>139,820 km</td>
+                    <td>67</td>
+                </tr>
+                <tr>
+                    <td>Mars</td>
+                    <td>7</td>
+                    <td>1.38 au</td>
+                    <td>686.98 days</td>
+                    <td>6,780 km</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Mercury</td>
+                    <td>8</td>
+                    <td>0.39 au</td>
+                    <td>87.97 days</td>
+                    <td>4,879 km</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

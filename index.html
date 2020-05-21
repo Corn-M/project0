@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @media (min-width: 992px) {
+                h1::before {
+                    content:"Welcome to my web page!"
+                }
+            }
+
+            @media (max-width: 991px) {
+                h1::before {
+                    content:"Welcome!"
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1></h1>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <a href="index.html"><button type="button" class="btn btn-outline-light btn-block">Main</button></a>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="about.html"><button type="button" class="btn btn-outline-light btn-block">About me</button></a>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="facts.html"><button type="button" class="btn btn-outline-light btn-block">Facts</button></a>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <a href="cool.html"><button type="button" class="btn btn-outline-light btn-block">Cool stuff</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <img src="pupper1.jpg">
+            <p class="center">&#8593 That's my incredibly cute doggo.</p>
+            <p class="tab">
+                This is a webpage that I designed for the class CS50's Web Programming with Python and JavaScript.
+                This webpage was created for project0 of the CS50 class!
+                I hope that this webpage serves as a good introduction to myself and the material for this course.
+            </p>
+        </div>
+    </body>
+</html>
